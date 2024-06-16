@@ -1,3 +1,9 @@
+terraform {
+  backend "azurerm" {
+    storage_account_name = "test989180"
+    key = "prod_tfstate"
+  }
+}
 provider "azurerm" {
     subscription_id = "809eff35-137f-4411-9bef-83c5a1552808"
     tenant_id = "f4425336-4592-4d59-8bf1-b90a45179899"
