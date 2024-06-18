@@ -11,7 +11,7 @@ resource "azurerm_resource_group" "myrg" {
   location = var.location
 }
 
-resource "azurerm_storage_account" "mysg" {
+/*resource "azurerm_storage_account" "mysg" {
   name                     = "test989180"
   resource_group_name      = var.resource_group_name
   location                 = var.location
@@ -38,4 +38,4 @@ resource "azurerm_storage_container" "testcontainer1" {
   container_access_type = "private"
 
   depends_on = [ azurerm_storage_account.mysg ]
-}
+}*/
