@@ -5,10 +5,10 @@ This repository contains Terraform configurations for creating and managing Azur
 
 ## Prerequisites
 
-* **Azure Subscription:** You need an active Azure subscription.
-* **Azure CLI:** The Azure CLI is required to authenticate with Azure.  Ensure it's installed and configured.  See [Microsoft's documentation](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?pivots=platform-linux) for instructions.
-* **Terraform:**  Install Terraform.  Download from the [official website](https://www.terraform.io/downloads.html).
-* **Azure Provider:** Ensure the Azure provider is installed and configured for Terraform.  You can usually install the provider using: `terraform init`
+1. **Azure Subscription:** You need an active Azure subscription.
+2. **Azure CLI:** The Azure CLI is required to authenticate with Azure.  Ensure it's installed and configured.  See [Microsoft's documentation](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli?pivots=platform-linux) for instructions.
+3. **Terraform:**  Install Terraform.  Download from the [official website](https://www.terraform.io/downloads.html).
+4. **Azure Provider:** Ensure the Azure provider is installed and configured for Terraform.  You can usually install the provider using: `terraform init`
 
 ## Getting Started
 
