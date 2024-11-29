@@ -1,4 +1,3 @@
-```markdown
 # Azure Resource Creation using Terraform
 
 This repository contains Terraform configurations for creating and managing Azure resources.  This is a template, and you'll need to customize it to your specific needs.
