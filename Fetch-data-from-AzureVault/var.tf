@@ -1,5 +1,6 @@
 variable "resource_group_name" {
-  default = "today-tomorrow"
+  #default = "today-tomorrow"
+  type = "string"
 }
 
 variable "location" {
