@@ -36,8 +36,8 @@ resource "azurerm_resource_group" "test1" {
   location = "central india"
 
   tags = {
-    environment = "PROD"
-    costcenter  = "123456"
+    #environment = "PROD"
+    #costcenter  = "123456"
     department  = "test"
   }
 }
