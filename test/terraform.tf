@@ -6,11 +6,7 @@ resource "azurerm_resource_group" "test" {
   name     = "today-rg"
   location = "central india"
 
-  tags = {
-    environment = "PROD"
-    costcenter  = "123456"
-    department  = "test"
-  }
+  tags = var.tags
 }
 
 
@@ -22,11 +18,7 @@ resource "azurerm_storage_account" "mysg" {
   account_replication_type = "LRS"
   depends_on               = [azurerm_resource_group.test]
 
-  tags = {
-    costcenter  = "123456"
-    department  = "FinOps"
-    environment = "PROD"
-  }
+ tags = var.tags
 
 
 }
@@ -35,9 +27,5 @@ resource "azurerm_resource_group" "test1" {
   name     = "today-tomorrow"
   location = "central india"
 
-  tags = {
-    #environment = "PROD"
-    #costcenter  = "123456"
-    department  = "test"
-  }
+tags = var.tags
 }
